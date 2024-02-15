@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: #121212;
+
+  h2 a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  form {
+    display: flex;
+  }
+
+  input {
+    outline: none;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 8px 0 0 8px;
+  }
+
+  button {
+    outline: none;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    font-size: 20px;
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: white;
+  }
+
+  button:hover {
+    background-color: #ddd;
+  }
+}
