@@ -1,0 +1,38 @@
+.movie-details {
+  padding: 5rem;
+
+  img {
+    max-width: 450px;
+    border-radius: 25px;
+  }
+
+  p {
+    margin-top: 0.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .main-movie-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    background-color: #121212;
+    padding: 2rem;
+    border-radius: 25px;
+
+    .info-movie-details {
+      width: 50%;
+    }
+  }
+
+  .title-movie-details {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+
+    h4 {
+      color: yellow;
+    }
+  }
+}
